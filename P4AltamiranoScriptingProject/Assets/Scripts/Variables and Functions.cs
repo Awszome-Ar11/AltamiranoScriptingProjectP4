@@ -14,13 +14,12 @@ public class VariablesAndFunctions : MonoBehaviour
         //run my variable thru my function
         myInt = MultiplyByTwo(myInt);
         Debug.Log(myInt);
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     //createthe multiply by two function
