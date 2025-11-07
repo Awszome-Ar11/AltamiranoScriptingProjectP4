@@ -15,7 +15,7 @@ public class BehaviorComponents : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            GetComponent<Renderer>().material.color = Color.rewd;
+            GetComponent<Renderer>().material.color = Color.red;
         }
         if (Input.GetKeyDown(KeyCode.G))
         {
@@ -23,7 +23,7 @@ public class BehaviorComponents : MonoBehaviour
         }
         if (Input.GetKeyDown (KeyCode.B))
         {
-            getComponent<Renderer>().material.color = Color.blue;
+            GetComponent<Renderer>().material.color = Color.blue;
         }
     }
 }

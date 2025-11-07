@@ -7,7 +7,6 @@ public class VariablesAndFunctions : MonoBehaviour
     //create my integer variable
     public int myInt = 5;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +28,7 @@ public class VariablesAndFunctions : MonoBehaviour
         int results;
 
         //multiply the num,ber by two
-        results = number 2;
+        results = number * 2;
 
         //return the value
         return results;
