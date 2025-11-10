@@ -5,7 +5,7 @@ using UnityEngine;
 public class VariablesAndFunctions : MonoBehaviour
 {
     //create my integer variable
-    public int myInt = 5;
+    int myInt = 5;
 
     // Start is called before the first frame update
     void Start()
